@@ -17,7 +17,7 @@ The `build-and-test` job performs four steps:
 
 1. **Checkout code**: Downloads the repository's code onto the runner.
 2. **Validate HTML**: Checks the HTML files for errors using `html5validator-action`.
-3. **Check links**: Scans for broken links using `github-action-markdown-link-check`.
+3. **Check links**: Scans for broken links using `github-action-markdown-link-check`. This step uses `continue-on-error: true`, so a broken link is reported in the logs but does not stop the workflow or block deployment.
 4. **Upload artifact**: Packages the website files so they can be deployed to GitHub Pages.
 
 After these steps pass, the separate `deploy` job runs a final step, **Deploy to GitHub Pages**, which publishes the uploaded site.
