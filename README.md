@@ -5,14 +5,14 @@ A modern, responsive website for TechFlow Solutions - a web development company 
 ## Project Structure
 
 ```
-techflow-website/
+**techflow-website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS stylesheet
 ├── script.js           # JavaScript functionality
 ├── README.md          # Project documentation
 └── .github/
     └── workflows/
-        └── deploy.yml  # GitHub Actions deployment workflow
+        └── deploy.yml  # GitHub Actions deployment workflow**
 ```
 
 ## Features
@@ -66,7 +66,7 @@ This project follows a professional Git workflow:
 
 The website is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the `main` branch.
 
-**Live Site**: [Your GitHub Pages URL will appear here]
+**Live Site**: [![Deploy to GitHub Pages](https://github.com/MarcusHawj/ModernTechAssignment2/actions/workflows/deploy.yml/badge.svg)](https://github.com/MarcusHawj/ModernTechAssignment2/actions/workflows/deploy.yml)
 
 ## Development Workflow
 
